@@ -1,0 +1,39 @@
+.counter {
+  margin-bottom: 2rem;
+}
+
+.countText {
+  font-size: 6rem;
+  font-weight: bold;
+  transition: color 0.5s ease-in-out;
+}
+
+.rainbow {
+  background: linear-gradient(90deg, red, orange, yellow, green, blue, indigo, violet);
+  -webkit-background-clip: text;
+  color: transparent;
+}
+
+.green {
+  color: #38a169;
+}
+
+.red {
+  color: #e53e3e;
+}
+
+.bounce {
+  animation: bounce 1s infinite;
+}
+
+@keyframes bounce {
+  0%, 20%, 50%, 80%, 100% {
+    transform: translateY(0);
+  }
+  40% {
+    transform: translateY(-30px);
+  }
+  60% {
+    transform: translateY(-15px);
+  }
+}
