@@ -1,5 +1,6 @@
 .counter {
   margin-bottom: 2rem;
+  text-align: center;
 }
 
 .countText {
@@ -35,5 +36,25 @@
   }
   60% {
     transform: translateY(-15px);
+  }
+}
+
+@media (max-width: 768px) {
+  .countText {
+    font-size: 3rem;
+  }
+
+  .counter {
+    margin-bottom: 1rem;
+  }
+}
+
+@media (max-width: 480px) {
+  .countText {
+    font-size: 2rem; 
+  }
+
+  .counter {
+    margin-bottom: 1rem;
   }
 }
